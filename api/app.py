@@ -1,3 +1,6 @@
+import os
+# Demo mode: runs with sample data when no API keys configured
+DEMO_MODE = os.getenv('DEMO_MODE', 'false').lower() == 'true' or not os.getenv('DATABASE_URL')
 """FastAPI scraper API — scrape, crawl, and extract endpoints."""
 
 from __future__ import annotations

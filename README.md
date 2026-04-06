@@ -1,5 +1,7 @@
 # python-scraper-api
 
+![CI](https://github.com/Shaisolaris/python-scraper-api/actions/workflows/ci.yml/badge.svg)
+
 Async web scraper API built with FastAPI, httpx, and BeautifulSoup. Features single-page scraping, batch scraping, website crawling, structured data extraction with custom CSS selector rules, rate limiting with token bucket, concurrent request control, retry with exponential backoff, and async job queue.
 
 ## Stack
